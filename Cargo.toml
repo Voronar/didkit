@@ -20,3 +20,6 @@ sign-tag = true
 tag-prefix = "{{crate_name}}/"
 tag-message = "Release {{crate_name}} version {{version}}."
 pre-release-commit-message = "Release"
+
+[patch.crates-io]
+ssi = { git = "https://github.com/Voronar/ssi", branch = "did_key_jwk_jcs_pub" }
